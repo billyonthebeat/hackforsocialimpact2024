@@ -1,0 +1,4 @@
+uagents>=0.9.1
+requests>=2.31.0
+asyncio>=3.4.3
+time>=0.1.0

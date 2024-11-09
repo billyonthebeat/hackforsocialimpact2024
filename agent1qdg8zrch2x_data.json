@@ -1,0 +1,21 @@
+{
+    "latest_data": {
+        "total_renewable": 30.7,
+        "total_withdrawal": 3.218,
+        "sources": [
+            {
+                "name": "Surface Water",
+                "value": 2.165
+            },
+            {
+                "name": "Groundwater",
+                "value": 0.621
+            },
+            {
+                "name": "Wastewater",
+                "value": 0.032
+            }
+        ],
+        "timestamp": "2024-11-09T21:40:42.240377"
+    }
+}
