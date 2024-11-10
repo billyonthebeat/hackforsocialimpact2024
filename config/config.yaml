@@ -1,0 +1,45 @@
+# Agent Configuration
+agents:
+  data_retrieval:
+    name: "data_retrieval_agent"
+    port: 8001
+    interval: 30  # Changed from 600 to 30 seconds for testing
+    data_sources:
+      nasa_worldview:
+        base_url: "https://worldview.earthdata.nasa.gov/api/v1"
+        data_period_days: 30
+      earth_engine:
+        base_url: "https://earthengine.googleapis.com/v1beta"
+        region_count: 10
+      sentinel:
+        base_url: "https://services.sentinel-hub.com/api/v1"
+        sample_points: 20
+
+  analysis:
+    name: "analysis_agent"
+    port: 8002
+    analysis_params:
+      clustering:
+        n_clusters: 3
+        random_state: 42
+      ndvi_zones:
+        categories: 4
+        labels: ["low", "medium-low", "medium-high", "high"]
+
+  visualization:
+    name: "visualization_agent"
+    port: 8003
+    output_dir: "visualizations/"
+    map_settings:
+      center: [40, -90]
+      zoom: 4
+    ndvi_colors:
+      low: "red"
+      medium_low: "orange"
+      medium_high: "yellow"
+      high: "green"
+
+# Bureau Configuration
+bureau:
+  host: "127.0.0.1"
+  base_port: 8000
