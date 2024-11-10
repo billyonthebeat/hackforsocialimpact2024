@@ -1,0 +1,18 @@
+{
+    "alice": {
+        "identity_key": "d211688ca1d9bdb1eb1ec0642203a84adf4f2df38163d3dab115cadad85b41f3",
+        "wallet_key": "A+0tlFL7E2l/t3Ivleb6Fh72K0nSYjwSOqu8AUqVnLc="
+    },
+    "bob": {
+        "identity_key": "7e1c7ee5b34519585ec0527f0131b604ce53bfa5ae49ac2c76db540005861938",
+        "wallet_key": "Xu3Amz29/5d4MI2w2NRKJuhog3T3Htc/qj8Kz1L2nYw="
+    },
+    "kenya_data_fetcher": {
+        "identity_key": "830cad67d989e0859803c3be4888add9c5857cd5b0c9f327f85f7f67ab54caf4",
+        "wallet_key": "YSrmo0n97t7rxbLxDX7cpj1tpAG5NbfczZM8AWCi56E="
+    },
+    "data_visualizer": {
+        "identity_key": "aab35a42fa632be55e0c69710c18e1249b19cf9983103cecf9abb56230d36564",
+        "wallet_key": "1iX5LzKF0qGU6F/XTziC5k8abAYABAtvn74k6OeMMHE="
+    }
+}
